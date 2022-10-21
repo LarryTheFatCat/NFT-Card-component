@@ -36,3 +36,11 @@ html {
     color: white;
     padding: 5px;
 }
+
+.description-content {
+    color: hsl(215, 45%, 58%);
+    font-size: 300;
+    font-family: Inherit;
+    font-size: 15px;
+    padding: 5px;
+}
