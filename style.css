@@ -81,3 +81,11 @@ html {
     top: -0.5cm;
     left: 2cm;
 }
+
+.line {
+    width: 7.2cm;;
+    height: 47px;
+    border-bottom: 1px solid hsl(215, 45%, 58%);
+    position: fixed;
+    top: 14cm;
+}
