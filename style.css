@@ -13,6 +13,7 @@ html {
     place-items: center;
     height: 100vh;
     font-family: "Outfit", "Arial", sans-serif;
+    overflow: none;
 }
 
 .card {
@@ -35,6 +36,8 @@ html {
     font-size: 20px; 
     color: white;
     padding: 5px;
+    position: relative;
+    top: -7cm;
 }
 
 .description-content {
@@ -44,12 +47,12 @@ html {
     font-size: 15px;
     padding: 5px;
     position: relative;
-    top: 0.2cm; 
+    top: -6.8cm; 
 }
 
 .price {
     position: relative;
-    top: 1cm;
+    top: -6cm;
 }
 
 .text {
@@ -66,7 +69,7 @@ html {
 
 .time {
     position: relative;
-    top: -0.1cm;
+    top: -7.1cm;
     left: 2.7cm;
     color: hsl(215, 45%, 58%);
 }
@@ -82,14 +85,6 @@ html {
     left: 2cm;
 }
 
-.line {
-    width: 7.2cm;;
-    height: 47px;
-    border-bottom: 1px solid hsl(215, 45%, 58%);
-    position: fixed;
-    top: 14cm;
-}
-
 .img-icon {
     position: relative;
     top: 0.6cm;
@@ -98,6 +93,22 @@ html {
     height: 1cm;
     border: 1px solid white;
     border-radius: 50%;
+}
+.line {
+    width: 7.2cm;
+    height: 47px;
+    border-bottom: 1px solid hsl(215, 45%, 58%);
+    position: fixed;
+    top: 14cm;
+    left: 16.8cm;
+}
+
+.creator {
+    position: relative;
+    top: -7cm;
+    left: 0.4cm;
+    color: hsl(215, 45%, 58%);
+    font-size: 15px;
 }
 
 .creator-name {
@@ -109,3 +120,36 @@ html {
 .name {
     color: white;
 }
+
+.name:hover {
+    color: hsl(215, 45%, 58%);
+    cursor: pointer;
+}
+
+.title-content:hover {
+    color: hsl(215, 45%, 58%);
+    cursor: pointer;
+}
+
+.card-overlay {
+    width: 7.4cm;
+    height: 7.2cm;
+    position: relative;
+    top: -7.5cm;
+    border-radius: 1rem;
+    background-image: url(./images/icon-view.svg) no-repeat center;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    opacity: 0;
+    transition: ease-in-out 0.8s;
+  }
+
+  .eye {
+    position: relative;
+    left: 3cm;
+    top: 3cm;
+  }
+  
+  .card-overlay:hover {
+    opacity: 1;
+    transition: ease-out transform 0.8s;
+  }
