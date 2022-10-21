@@ -43,4 +43,41 @@ html {
     font-family: Inherit;
     font-size: 15px;
     padding: 5px;
+    position: relative;
+    top: 0.2cm; 
+}
+
+.price {
+    position: relative;
+    top: 1cm;
+}
+
+.text {
+    position: relative;
+    left: 0.4cm;
+    color: hsl(215, 45%, 58%);
+    font-size: 15px;
+}
+
+.svg-price {
+    position: relative;
+    top: -0.5cm;
+}
+
+.time {
+    position: relative;
+    top: -0.1cm;
+    left: 2.7cm;
+    color: hsl(215, 45%, 58%);
+}
+
+.time-word {
+    position: relative;
+    left: 2.5cm;
+}
+
+.svg-time {
+    position: relative;
+    top: -0.5cm;
+    left: 2cm;
 }
