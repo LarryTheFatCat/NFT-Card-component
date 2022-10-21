@@ -138,9 +138,9 @@ html {
     top: -7.5cm;
     border-radius: 1rem;
     background-image: url(./images/icon-view.svg) no-repeat center;
-    background-color: hsl(178, 100%, 50%, 0.5);
+    backdrop-filter: blur(5px);
     opacity: 0;
-    transition: ease-in-out 0.8s;
+    transition: ease-in 500ms;
   }
 
   .eye {
@@ -151,5 +151,6 @@ html {
   
   .card-overlay:hover {
     opacity: 1;
-    transition: ease-out transform 0.8s;
+    transition: ease-out 500ms;
+    backdrop-filter: ease-in 500ms;
   }
