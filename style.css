@@ -94,14 +94,6 @@ html {
     border: 1px solid white;
     border-radius: 50%;
 }
-.line {
-    width: 7.2cm;
-    height: 47px;
-    border-bottom: 1px solid hsl(215, 45%, 58%);
-    position: fixed;
-    top: 14cm;
-    left: 16.8cm;
-}
 
 .creator {
     position: relative;
@@ -141,6 +133,7 @@ html {
     backdrop-filter: blur(5px);
     opacity: 0;
     transition: ease-in 500ms;
+    cursor: pointer;
   }
 
   .eye {
